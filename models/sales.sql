@@ -2,9 +2,9 @@
 
 WITH 
 
-  sales AS (SELECT * FROM `gz_raw_data.raw_gz_sales`)
+  sales AS (SELECT * FROM `main-being-402308.gz_raw_data.raw_gz_sales`)
 
-  ,product AS (SELECT * FROM `gz_raw_data.raw_gz_product`)
+  ,product AS (SELECT * FROM `main-being-402308.gz_raw_data.raw_gz_product`)
 
 SELECT
   s.date_date
